@@ -71,6 +71,7 @@ public class Baseclass {
 
 	@BeforeMethod(groups = { "smoke", "regression" })
 	public void beforeMethod() throws IOException {
+		//Login to Vtiger
 		Reporter.log("Login to the appln", true);
 		ClassObject_Utility.getTest().log(Status.INFO, "Login to the appln");
 
