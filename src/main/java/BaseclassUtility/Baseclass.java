@@ -48,6 +48,7 @@ public class Baseclass {
 //	@Parameters("browser")
 	@BeforeClass(groups = { "smoke", "regression" })
 	public void beforeClass() throws IOException {
+		//Launch the Browser
 		Reporter.log("Launch the browser", true);
 		ClassObject_Utility.getTest().log(Status.INFO, "Launch the browser");
 //		String Browser = pro.FetchDataFromPropFile("browser");
