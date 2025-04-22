@@ -20,7 +20,7 @@ import POMPages.CreateNewOrgPompage;
 import POMPages.HomePomPage;
 import POMPages.OrgDetailPomPage;
 import POMPages.OrganizationPomPage;
-//Git conflict in new repo
+//Git conflict in new rep
 public class CreateContactScenariosTest extends Baseclass {
 
 	@Test(groups = "smoke", retryAnalyzer = ListenersUtility.RetryAnalyser_utility.class)
